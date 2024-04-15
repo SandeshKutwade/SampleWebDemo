@@ -4,7 +4,7 @@ pipeline {
         stage('vcs') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/dummyrepos/SampleWeb.git'
+                    url: 'https://github.com/SandeshKutwade/SampleWebDemo.git'
             }
         }
         stage('build and analysis') {
